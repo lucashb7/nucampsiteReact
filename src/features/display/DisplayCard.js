@@ -7,7 +7,7 @@ const DisplayCard = ({item}) => {
         <Card>
             <CardImg src={image} alt={name} />
             <CardBody>
-                <CardTitle>{name}</CardTitle>
+                <CardTitle>{name} </CardTitle>
                 <CardText>{description}</CardText>
             </CardBody>
         </Card>
